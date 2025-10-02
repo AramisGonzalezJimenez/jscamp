@@ -67,8 +67,20 @@ Uso: `Extensiones → GitHub Copilot → Deshabilitar"`
 
 - **[Stitch](https://stitch.withgoogle.com/)** - Herramienta para crear prototipos de aplicaciones mediante prompts de IA.
 
+- **[Tabler](https://tabler.io/icons)** - Generador de iconos vectoriales en formato SVG.
+
 ---
 
 ## 📚 Bibliografía
 
 - **[Documentación de HTML](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements)** - MDN Web Docs
+
+## Tareas
+
+[] - **[Curso de HTML](https://www.youtube.com/watch?v=3nYLTiY5skU)** - Curso de HTML
+
+[] - **[Curso de CSS](https://www.youtube.com/playlist?list=PLUofhDIg_38q7l8gV4IVCz_pjUeyD99_j)** - Curso de CSS
+
+[] - Hacer la pagina de "Encuentra tu próximo trabajo"
+
+[] - **[Plataforma de aprendizaje JS](https://www.aprendejavascript.dev/)** - Plataforma de aprendizaje JS
