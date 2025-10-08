@@ -29,17 +29,57 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 
+- **[Terminal Warp](https://midu.link/warp)** - Terminal con IA y Agentes
+
+```bash
+wget https://releases.warp.dev/stable/v0.2025.09.24.08.11.stable_03/warp-terminal_0.2025.09.24.08.11.stable.03_amd64.deb
+sudo apt install ./warp-terminal_0.2025.09.24.08.11.stable.03_amd64.deb
+```
+
 - **[Git](https://git-scm.com/)** - Control de versiones
 
 ```bash
 sudo apt install git
 ```
 
-- **[Terminal Warp](https://midu.link/warp)** - Terminal con IA y Agentes
+---
 
+## 🧩 Configuración de Git
+
+- **Configurar usuario y rama principal:**
 ```bash
-wget https://releases.warp.dev/stable/v0.2025.09.24.08.11.stable_03/warp-terminal_0.2025.09.24.08.11.stable.03_amd64.deb
-sudo apt install ./warp-terminal_0.2025.09.24.08.11.stable.03_amd64.deb
+git config --global user.name "Nombre Apellido"
+git config --global user.email email@email.com
+git config --global init.defaultBranch main
+```
+
+- **Verificar la configuración de Git:**
+```bash
+git config --get user.name
+git config --get user.email
+git config --get init.defaultBranch
+```
+
+- **Comprobar si ya tengo una clave SSH creada:**
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+
+- **Crear una clave SSH para autenticarme con GitHub:**
+```bash
+ssh-keygen -t ed25519
+```
+
+- **Copiar la clave pública generada y añadirla a GitHub**:
+```bash
+cat ~/.ssh/id_ed25519.pub
+```
+Uso: `Settings → SSH and GPG keys → New SSH key`
+
+
+- **Comprobar la conexión con GitHub:**
+```bash
+ssh -T git@github.com
 ```
 
 ---
@@ -75,9 +115,11 @@ Uso: `Extensiones → GitHub Copilot → Deshabilitar"`
 
 - **[Documentación de HTML](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements)** - MDN Web Docs
 
+---
+
 ## Tareas
 
-[] - **[Curso de HTML](https://www.youtube.com/watch?v=3nYLTiY5skU)** - Curso de HTML
+[X] - **[Curso de HTML](https://www.youtube.com/watch?v=3nYLTiY5skU)** - Curso de HTML
 
 [] - **[Curso de CSS](https://www.youtube.com/playlist?list=PLUofhDIg_38q7l8gV4IVCz_pjUeyD99_j)** - Curso de CSS
 
